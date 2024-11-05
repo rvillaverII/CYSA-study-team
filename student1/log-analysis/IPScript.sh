@@ -4,4 +4,4 @@ ipv6=$(ifconfig ens32 | grep -oP 'inet6 \K[^ ]+')
 interface=ens32
 
 echo "Your IPv4 address is "$ipv4
-echo "Your IPv6 address is "$ipv6
+echo $ipv4 > yourIP.txt
