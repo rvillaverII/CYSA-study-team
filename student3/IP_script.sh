@@ -1,1 +1,1 @@
-hostname -I
+hostname -I >> script_output.txt
