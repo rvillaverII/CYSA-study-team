@@ -1,1 +1,1 @@
-hostname -I
+hostname -I > ipaddress.txt
